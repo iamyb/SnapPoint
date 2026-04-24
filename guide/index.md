@@ -46,14 +46,14 @@ SnapPoint is an AI-powered "shell"; you need to connect an AI "brain" before it 
    - **Model ID**: Enter the exact id of the model you configured in your model server.
 
 ::: tip
-**Quick Setup**: You can also use the **Presets** dropdown in *Model Settings* to automatically fill in the correct Base URL and configuration for providers like LM Studio, DeepSeek, or OpenAI.
+**Quick Setup**: You can also use the **Presets** dropdown in *Model Settings* to automatically fill in the correct Base URL and configuration for providers like **LM Studio**, **Ollama**, **vLLM**, or cloud providers like **DeepSeek** and **ZhipuAI**.
 :::
 
 ### API Providers
 If you prefer a hosted model, enter your API key in *Settings → Model Settings*.
 
 ::: tip
-**Quick Setup**: Similar to local models, you can use the **Presets** dropdown to automatically configure endpoints and recommended model names for common providers.
+**Quick Setup**: Similar to local models, you can use the **Presets** dropdown to automatically configure endpoints and recommended model names for common providers like **OpenAI (GPT-4o, o3-mini)**, **Groq**, or **Kimi**.
 :::
 
 ::: warning Action Required

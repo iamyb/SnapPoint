@@ -39,13 +39,41 @@ Quickly understand the purpose and structure of a repository by summarizing READ
 - **Best For**: GitHub repos and documentation landing pages.
 
 ## Finance & Market Updates
-**Agent**: Finance Agent
+**Agent**: Finance & Stock Analysis
 
 <img src="/yahoo.png" alt="Finance news summary preview" style="border-radius: 8px; margin: 1rem 0; border: 1px solid var(--vp-c-divider);">
 
 Turn earnings stories, stock moves, and macro headlines into clear, investor-focused briefs.
 - **Key Focus**: Market impact, key figures, and analyst sentiment.
 - **Best For**: Yahoo Finance, Bloomberg, and market news.
+
+## Technical Documentation
+**Agent**: Technical Documentation
+
+Quickly understand the purpose and structure of a project by summarizing its installation, core API, and main features.
+- **Key Focus**: Project purpose, quick start, and core features.
+- **Best For**: GitHub READMEs and official documentation.
+
+## How-to & Tutorials
+**Agent**: How-to & Tutorial
+
+Summarize lengthy educational content into clear, actionable steps.
+- **Key Focus**: Learning objectives, prerequisites, and core execution steps.
+- **Best For**: Educational blogs, course modules, and technical guides.
+
+## Product Reviews
+**Agent**: Product Review & Comparison
+
+Extract the essential pros, cons, and performance metrics from product reviews.
+- **Key Focus**: Value proposition, strengths/weaknesses, and final verdict.
+- **Best For**: Tech blogs and e-commerce reviews.
+
+## Legal & Policies
+**Agent**: Legal & Policy
+
+Translate dense legal jargon into plain language.
+- **Key Focus**: User obligations, data collection disclosure, and critical risks.
+- **Best For**: Terms of Service and Privacy Policies.
 
 ---
 

@@ -6,9 +6,22 @@ Once you've mastered the basics, explore these advanced features to get the most
 
 By default, SnapPoint uses the **Global Prompt Template** for all summarization tasks. You can customize this template to set your preferred tone and format.
 
-User-defined variables like <code v-pre>{{targetLang}}</code>, <code v-pre>{{siteName}}</code>, and <code v-pre>{{author}}</code> are supported to keep your summaries contextually relevant and consistent.
+User-defined variables like <code v-pre>{{targetLang}}</code>, <code v-pre>{{siteName}}</code>, <code v-pre>{{hostname}}</code>, and <code v-pre>{{author}}</code> are supported to keep your summaries contextually relevant and consistent.
 
 If you enable **Sub-Agents** or **Context-based Rules** (see below), they will take precedence over this global template.
+
+## Image Analysis (Vision)
+
+SnapPoint can analyze images and explain their content. This is useful for summarizing infographics, diagrams, or visual data.
+
+::: info Default Status
+This feature is **disabled by default** to save tokens and processing power. You must manually enable it in settings.
+:::
+
+- **Embedded Images**: For images within articles, SnapPoint converts the visual content into a text description and integrates it with the surrounding text for cohesive analysis.
+- **Single Image Snippets**: If you snap only an image (without surrounding text), the AI will focus exclusively on analyzing and describing that specific visual content.
+- **Enable**: Toggle **Enable Image Analysis** in **Settings → General Settings**.
+- **Requirement**: Use a model that supports vision (e.g., Qwen3.5 2B/4B/9B models).
 
 ## Agents & Rules
 
@@ -27,10 +40,18 @@ When no specific rule matches, the AI automatically routes to the best agent bas
 
 - **How it works**: Each agent has a **Description**. This description is sent to a "Router LLM" which decides which agent fits the current page best.
 - **Built-in Agents**: SnapPoint comes with specialized agents:
-  - **Paper Agent**: Extracts methodology and limitations from academic writing.
-  - **Forum Agent**: Follows thread structure to surface consensus.
-  - **News Agent**: Condenses long-form reporting into a brief.
-  - **Repo Agent**: Summarizes README and structure for GitHub projects.
+
+| Agent Name | Primary Focus | Best Use Cases |
+| :--- | :--- | :--- |
+| **Paper Agent** | Methodology, core innovations, and limitations. | arXiv, scholarly journals, preprints. |
+| **Forum Agent** | Thread structure, consensus, and key arguments. | Reddit, Hacker News, GitHub discussions. |
+| **News Agent** | Facts, context, and future implications. | News articles, press releases, blog posts. |
+| **Repo Agent** | Goals, stack, and architectural overview. | GitHub repositories, landing pages. |
+| **Technical Documentation** | Installation, usage, and API specifications. | API docs, lib READMEs, technical guides. |
+| **How-to & Tutorial** | Prerequisites, execution steps, and takeaways. | Educational posts, course modules. |
+| **Product Review** | Pros/cons, value prop, and performance verdict. | Tech blogs, e-commerce product reviews. |
+| **Legal & Policy** | Terms, user obligations, and privacy details. | Terms of Service, Privacy Policies. |
+
 - **Custom Agents**: You can add your own sub-agents by providing a name, a description for the router, and a custom prompt template.
 
 
