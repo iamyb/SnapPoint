@@ -47,35 +47,16 @@ Turn earnings stories, stock moves, and macro headlines into clear, investor-foc
 - **Key Focus**: Market impact, key figures, and analyst sentiment.
 - **Best For**: Yahoo Finance, Bloomberg, and market news.
 
-## Technical Documentation
-**Agent**: Technical Documentation
-
-Quickly understand the purpose and structure of a project by summarizing its installation, core API, and main features.
-- **Key Focus**: Project purpose, quick start, and core features.
-- **Best For**: GitHub READMEs and official documentation.
-
-## How-to & Tutorials
-**Agent**: How-to & Tutorial
-
-Summarize lengthy educational content into clear, actionable steps.
-- **Key Focus**: Learning objectives, prerequisites, and core execution steps.
-- **Best For**: Educational blogs, course modules, and technical guides.
-
-## Product Reviews
-**Agent**: Product Review & Comparison
-
-Extract the essential pros, cons, and performance metrics from product reviews.
-- **Key Focus**: Value proposition, strengths/weaknesses, and final verdict.
-- **Best For**: Tech blogs and e-commerce reviews.
-
-## Legal & Policies
-**Agent**: Legal & Policy
-
-Translate dense legal jargon into plain language.
-- **Key Focus**: User obligations, data collection disclosure, and critical risks.
-- **Best For**: Terms of Service and Privacy Policies.
-
----
 
 ## Custom Use Cases
 SnapPoint allows you to define custom rules for specific domains. If none of the built-in agents fit, you can create your own instructions to handle unique content types.
+
+## Other Specialized Agents
+
+| Agent | Purpose | Key Focus | Best For |
+| :--- | :--- | :--- | :--- |
+| **Technical Documentation** | Understand project purpose and structure | Project purpose, quick start, core features | GitHub READMEs, official docs |
+| **How-to & Tutorial** | Summarize educational content into steps | Learning objectives, prerequisites, execution steps | Educational blogs, course modules |
+| **Product Review & Comparison** | Extract pros, cons, and performance metrics | Value proposition, strengths/weaknesses, verdict | Tech blogs, e-commerce reviews |
+| **Legal & Policy** | Translate legal jargon into plain language | User obligations, data collection, critical risks | Terms of Service, Privacy Policies |
+
