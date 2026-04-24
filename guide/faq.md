@@ -13,7 +13,7 @@ No. SnapPoint only processes the text or images you explicitly select to summari
 ## General
 
 **How do I change the summary language?**
-Go to **Settings → Prompt Settings** and update the "Global Prompt Template". Ensure you include the `{{targetLang}}` variable or explicitly specify your language in the custom prompt.
+Go to **Settings → Prompt Settings** and update the "Global Prompt Template". Ensure you include the <code v-pre>{{targetLang}}</code> variable or explicitly specify your language in the custom prompt.
 
 **Is SnapPoint free?**
 The extension itself is free and open-source. However, you may incur costs if you use paid API providers (like OpenAI or Anthropic). Local models are completely free to use.
