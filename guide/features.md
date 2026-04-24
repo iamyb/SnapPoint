@@ -77,3 +77,17 @@ Every summary is automatically saved to your local history for later review and 
 ::: tip
 History is stored entirely in your browser's local extension storage. It is never synced to a server.
 :::
+
+## Power User Shortcuts
+
+SnapPoint is designed for efficiency. Use these keyboard shortcuts to operate the Snap pill without reaching for your mouse:
+
+| Key | Action |
+| :--- | :--- |
+| <kbd>[</kbd> | **Confirm/Highlight**: On first press, highlights the currently identified block under the mouse. |
+| <kbd>[</kbd> | **Expand**: On second press, expands the selection to the parent container. |
+| <kbd>Enter</kbd> | **Snap**: Triggers the summarization (equivalent to clicking the "Snap" button). |
+
+::: info
+Shortcuts are active whenever the Snap pill is visible on the page.
+:::
