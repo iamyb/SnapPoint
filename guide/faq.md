@@ -12,16 +12,19 @@ No. SnapPoint only processes the text or images you explicitly select to summari
 
 ## General
 
-**Why did I build this extension?**
+**Why did I build this extension?**  
 As a non-native English speaker, I can understand most English content, but reading long articles, deep technical discussions, or complex research papers is still time-consuming. I built SnapPoint to help me (and others) quickly grasp the core message and the key points of a source. If a summary looks valuable, I then dive deeper into the original text. It's about optimizing reading efficiency without losing depth.
 
-**How do I change the summary language?**
+**Does SnapPoint only support English?**  
+No. While it was built to solve a problem with reading English content faster, SnapPoint itself is language-agnostic. It can summarize content in any language supported by your chosen Large Language Model (LLM). As long as the model (e.g., GPT-4, Claude, or a local model) can process the language, SnapPoint can handle it.
+
+**How do I change the summary language?**  
 Go to **Settings → Prompt Settings** and update the "Global Prompt Template". Ensure you include the <code v-pre>{{targetLang}}</code> variable or explicitly specify your language in the custom prompt.
 
-**Is SnapPoint free?**
+**Is SnapPoint free?**  
 The extension itself is free and open-source. However, you may incur costs if you use paid API providers (like OpenAI or Anthropic). Local models are completely free to use.
 
-**Why doesn't the Snap icon appear when I hover over certain text?**
+**Why doesn't the Snap icon appear when I hover over certain text?**  
 If the Snap icon doesn't appear on hover, it's likely because the text content is shorter than the minimum threshold. In such cases, you can simply **select the text with your mouse**, and the Snap button will appear immediately for the selected content.
 
 ## Feedback & Support
