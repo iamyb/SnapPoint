@@ -18,6 +18,9 @@ Go to **Settings → Prompt Settings** and update the "Global Prompt Template". 
 **Is SnapPoint free?**
 The extension itself is free and open-source. However, you may incur costs if you use paid API providers (like OpenAI or Anthropic). Local models are completely free to use.
 
+**Why doesn't the Snap icon appear when I hover over certain text?**
+If the Snap icon doesn't appear on hover, it's likely because the text content is shorter than the minimum threshold. In such cases, you can simply **select the text with your mouse**, and the Snap button will appear immediately for the selected content.
+
 ## Feedback & Support
 
 **I found a bug or have a suggestion. Where can I report it?**
