@@ -12,6 +12,9 @@ No. SnapPoint only processes the text or images you explicitly select to summari
 
 ## General
 
+**Why did I build this extension?**
+As a non-native English speaker, I can understand most English content, but reading long articles, deep technical discussions, or complex research papers is still time-consuming. I built SnapPoint to help me (and others) quickly grasp the core message and the key points of a source. If a summary looks valuable, I then dive deeper into the original text. It's about optimizing reading efficiency without losing depth.
+
 **How do I change the summary language?**
 Go to **Settings → Prompt Settings** and update the "Global Prompt Template". Ensure you include the <code v-pre>{{targetLang}}</code> variable or explicitly specify your language in the custom prompt.
 
