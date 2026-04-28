@@ -5,6 +5,18 @@ export default defineConfig({
   description: "An AI-powered browser extension for instant context-aware summarization.",
   head: [
     ['link', { rel: 'icon', href: '/snappoint_logo.svg', type: 'image/svg+xml' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M7Z9Q3V8XQ' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`
+    ]
   ],
   themeConfig: {
     logo: '/snappoint_logo.svg',
