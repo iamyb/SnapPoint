@@ -21,6 +21,8 @@ The Snap Button follows your cursor and subtly appears when you hover over meani
 3.  **Agent Picker (<span style="display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; padding-left: 4px; font-size: 12px; vertical-align: middle; margin-left: 4px;">▼</span> Bottom Arrow)**:
     Opens a searchable list of available AI agents. You can switch from the default "Auto-summarizer" to a specific agent like "Forum Agent," "Paper Agent," or any custom agent you've created.
 
+<img src="/snappoint_expand_and_agent_picker.gif" alt="SnapPoint Expand and Agent Picker" style="border-radius: 8px; margin: 1.5rem 0; border: 1px solid var(--vp-c-divider); box-shadow: var(--vp-shadow-2);">
+
 ## Power User Shortcuts
 
 SnapPoint is designed for efficiency. Use these keyboard shortcuts to operate the Snap Button without reaching for your mouse:
