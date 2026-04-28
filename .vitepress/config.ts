@@ -7,7 +7,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/snappoint_logo.svg', type: 'image/svg+xml' }],
     [
       'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M7Z9Q3V8XQ' }
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M7Z9Q3V8XQ' },
     ],
     [
       'script',
