@@ -72,7 +72,7 @@ Now that your model is connected, you're ready to summarize!
 3. **Read**: The Side Panel will open and stream your summary in real-time.
 
 ::: info
-You can also click the **▲ expand arrow** on the Snap pill to widen the selection to the parent DOM block before summarizing.
+You can also click the **▲ expand arrow** on the Snap pill to widen the selection to the parent DOM block before summarizing, or use the **▼ agent picker** to choose a specific sub-agent before you snap.
 :::
 
 

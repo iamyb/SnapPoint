@@ -86,6 +86,7 @@ SnapPoint is designed for efficiency. Use these keyboard shortcuts to operate th
 | :--- | :--- |
 | <kbd>[</kbd> | **Confirm/Highlight**: On first press, highlights the currently identified block under the mouse. |
 | <kbd>[</kbd> | **Expand**: On second press, expands the selection to the parent container. |
+| <kbd>/</kbd> | **Agent Picker**: Opens a searchable menu to force-select a specific sub-agent, matching the ▼ picker on the Snap pill. |
 | <kbd>Enter</kbd> | **Snap**: Triggers the summarization (equivalent to clicking the "Snap" button). |
 
 ::: info
