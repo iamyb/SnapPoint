@@ -1,9 +1,10 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
+import SnapButtonPreview from './components/SnapButtonPreview.vue'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
-    // register your custom global components
+    app.component('SnapButtonPreview', SnapButtonPreview)
   }
 }

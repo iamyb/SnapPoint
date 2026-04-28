@@ -19,6 +19,7 @@ export default defineConfig({
         text: 'Introduction',
         items: [
           { text: 'Getting Started', link: '/guide/' },
+          { text: 'Snap Button', link: '/guide/snap-button' },
           { text: 'Advanced Features', link: '/guide/features' },
           { text: 'FAQ', link: '/guide/faq' },
         ]

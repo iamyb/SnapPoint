@@ -68,11 +68,11 @@ Now that your model is connected, you're ready to summarize!
 <img src="/snappoint_arxiv_summary.gif" alt="SnapPoint in Action" style="border-radius: 8px; margin: 1.5rem 0; border: 1px solid var(--vp-c-divider); box-shadow: var(--vp-shadow-1);">
 
 1. **Highlight text**: Move your mouse over any content on a webpage.
-2. **✨ Snap it**: Click the Snap pill that appears next to your hovered content.
+2. **✨ Snap it**: Click the Snap Button that appears next to your hovered content.
 3. **Read**: The Side Panel will open and stream your summary in real-time.
 
 ::: info
-You can also click the **▲ expand arrow** on the Snap pill to widen the selection to the parent DOM block before summarizing, or use the **▼ agent picker** to choose a specific sub-agent before you snap.
+You can also click the **<span style="display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1px solid currentColor; border-radius: 4px; font-size: 12px; vertical-align: middle; margin: 0 2px;">▲</span> expand arrow** on the Snap Button to widen the selection to the parent DOM block before summarizing, or use the **▼ agent picker** to choose a specific sub-agent before you snap.
 :::
 
 
