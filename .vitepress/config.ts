@@ -58,5 +58,6 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://snappoint.vercel.app'
-  }
+  },
+  srcExclude: ['README.md']
 })
